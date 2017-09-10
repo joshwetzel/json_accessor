@@ -6,4 +6,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Defines accessors for JSON attributes.'
   spec.author = 'Josh Wetzel'
   spec.license = 'MIT'
+
+  spec.add_development_dependency 'minitest'
+  spec.add_development_dependency 'rake'
 end
